@@ -14,7 +14,7 @@ public class Callbacks {
         });
 
 
-    };
+    }
 
     static class Operation<T> {
         public void performOperation(T data, Consumer<T> callback) {
