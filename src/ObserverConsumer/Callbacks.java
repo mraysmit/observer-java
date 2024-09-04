@@ -6,7 +6,7 @@ public class Callbacks {
 
     public static void main(String[] args) {
 
-        Operation<String> operation = new Operation<String>();
+        Operation<String> operation = new Operation<>();
 
         // Call performOperation with a lambda expression as the callback
         operation.performOperation("Example Data", (result) -> {
